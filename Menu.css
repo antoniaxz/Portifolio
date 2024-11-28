@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navegacao{
+    width:  100%;
+    background-color: crimson;
+    display: inline-flex;
+} 
+.menu{
+    background-color: white;
+    padding: 15pt;
+    margin: 15pt;
+    text-transform: uppercase;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-flex;
+}    
+.menu:hover{
+    background-color: rgb(102, 3, 22);
+    color:rgb(16, 15, 15);
+    transition: 1s;
+    border-radius: 5pt;
+}
+
